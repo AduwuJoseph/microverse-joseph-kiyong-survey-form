@@ -102,8 +102,12 @@ color: #fff;
   border-style: solid;
   height: 25px;
   font-size: 16px;
-  justify-content: left;
+  justify-content: right;
   align-self: flex-start;
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
 }
 
 .form form select {
