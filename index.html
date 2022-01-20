@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <div id="title">
+      <h1>freecodecamp Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
+    </div>
+
+    <form id="survey-form">
+      <label >Name</label>
+      <input type="text" id="name" placeholder="Enter your name">
+      <label>Email</label>
+      <input type="email" id="email" placeholder="Enter your Email">
+      <label>Age (optional)</label>
+      <input type="number" id="age" placeholder="Age">
+      <label>Which option best describes your current </label>
+      <select id="current-role">
+        <option selected disabled value="">Select current role</option>
+        <option>Student</option>
+        <option>Full Time Job</option>
+        <option>Full Time Learner</option>
+        <option>Prefer not to say</option>
+        <option>Other</option>
+      </select>
+      <label>Would you recommend freecodeCamp to a friend?</label>
+      <input type="radio" name="recommend" value="Definitely"> Definitely
+      <input type="radio" name="recommend" value="Maybe"> Maybe
+      <input type="radio" name="recommend" value="Not Sure"> Not Sure
+      
+    </form>
+    <script  src="js/index.js"></script>
+  </body>
+</html>
